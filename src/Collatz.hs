@@ -13,7 +13,3 @@ collatz a0 = iterate next a0
 
 num :: Int -> Int
 num m = length(takeWhile(/=1) (collatz m))
-
-
-
-maxNum a b = 
